@@ -1,0 +1,9 @@
+[submodule "lib/AHTXX_PICO"]
+	path = lib/AHTXX_PICO
+	url = https://github.com/gavinlyonsrepo/AHTXX_PICO
+[submodule "lib/RP2040DS3231RTC"]
+	path = lib/RP2040DS3231RTC
+	url = https://github.com/jondurrant/RP2040DS3231RTC
+[submodule "lib/RP2040PIO-DS18B20"]
+	path = lib/RP2040PIO-DS18B20
+	url = https://github.com/jondurrant/RP2040PIO-DS18B20
