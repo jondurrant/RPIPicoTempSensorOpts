@@ -10,6 +10,7 @@ target_link_libraries(${NAME}
     DS3231
     AHTXX
     ds18b20pio
+    hardware_adc
     )
 
 # enable usb output, disable uart output
