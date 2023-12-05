@@ -60,7 +60,7 @@ int main() {
 		printf("\n");
 		printf("Internal: %fC\n", getTemp());
 		printf("DS18B20 %fC\n", ds.getTemperature());
-				ds.convert();
+		ds.convert();
 		printf("DS3231: %s -- %s -- %d%C %.2fC\n", rtc.get_date_str(), rtc.get_time_str(), rtc.get_temp(), rtc.get_temp_f());
 		printf("AHT10 Temp %fC Humidity %f\n",
 				myAHT10.AHT10_readTemperature(true),

@@ -19,6 +19,7 @@ add_executable(${TEST_NAME}
 	TestDS3231.cpp
 	TestAHT10.cpp
 	TestDS18B20.cpp
+	TestInternal.cpp
 	
 	${SRC_FILES}
 )
@@ -37,6 +38,7 @@ target_link_libraries(${TEST_NAME} PRIVATE
     DS3231
     AHTXX
     ds18b20pio
+    hardware_adc
 )
 
 target_compile_definitions(${TEST_NAME} PRIVATE
